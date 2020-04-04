@@ -1,0 +1,21 @@
+{
+  "name": "harlam/openvpn-users",
+  "description": "OpenVPN users library",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "harlam",
+      "email": "harlamov.nikolay@yandex.ru"
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "harlam\\OpenVPN\\Users\\": "src"
+    }
+  }
+}
